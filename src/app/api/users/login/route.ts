@@ -44,7 +44,7 @@ export async function POST(req:NextRequest) {
         succes:true,
        })
        
-     // Envoiyer le cokkie avec la reponse :
+     // Envoyer le cookie avec la reponse :
        res.cookies.set("token", token, {
         httpOnly:true,
        })
